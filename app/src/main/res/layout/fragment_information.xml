@@ -1,0 +1,46 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="2"
+    android:paddingLeft="20dp">
+
+    <TextView style="@style/InfoLabel" android:text="Type"/>
+    <TextView style="@style/InfoValue" android:text=": TV"/>
+
+    <TextView style="@style/InfoLabel" android:text="Episodes"/>
+    <TextView style="@style/InfoValue" android:text=": Unknown"/>
+
+    <TextView style="@style/InfoLabel" android:text="Status"/>
+    <TextView style="@style/InfoValue" android:text=": Currently Airing"/>
+
+    <TextView style="@style/InfoLabel" android:text="Aired"/>
+    <TextView style="@style/InfoValue" android:text=": Oct 20, 1999 to ?"/>
+
+    <TextView style="@style/InfoLabel" android:text="Premiered"/>
+    <TextView style="@style/InfoValue" android:text=": Fall 1999"/>
+
+    <TextView style="@style/InfoLabel" android:text="Broadcast"/>
+    <TextView style="@style/InfoValue" android:text=": Sundays at 23:15 (JST)"/>
+
+    <TextView style="@style/InfoLabel" android:text="Producers"/>
+    <TextView style="@style/InfoValue" android:text=": Fuji TV, TAP, Shueisha"/>
+
+    <TextView style="@style/InfoLabel" android:text="Licensors"/>
+    <TextView style="@style/InfoValue" android:text=": Funimation, 4Kids Entertainment"/>
+
+    <TextView style="@style/InfoLabel" android:text="Studios"/>
+    <TextView style="@style/InfoValue" android:text=": Toei Animation"/>
+
+    <TextView style="@style/InfoLabel" android:text="Source"/>
+    <TextView style="@style/InfoValue" android:text=": Manga"/>
+
+    <TextView style="@style/InfoLabel" android:text="Demographic"/>
+    <TextView style="@style/InfoValue" android:text=": Shounen"/>
+
+    <TextView style="@style/InfoLabel" android:text="Duration"/>
+    <TextView style="@style/InfoValue" android:text=": 24 min."/>
+
+    <TextView style="@style/InfoLabel" android:text="Rating"/>
+    <TextView style="@style/InfoValue" android:text=": PG-13 - Teens 13 or older"/>
+
+</GridLayout>
