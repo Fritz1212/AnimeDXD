@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Belajar</string>
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim caudae
+        caudae praeter Sed haec quidem praeposita recte et reiecta dicere licebit. Duo
+        Reges: constructio interrete.
+    </string>
+    <string name="action_settings">Settings</string>
+
 </resources>

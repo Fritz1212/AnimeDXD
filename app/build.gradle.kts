@@ -31,8 +31,8 @@ android {
     }
 }
 
+// GANTI DENGAN BLOK INI
 dependencies {
-
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
@@ -40,4 +40,9 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+
+    // TAMBAHKAN DUA BARIS INI UNTUK NAVIGASI
+    val nav_version = "2.7.7" // Versi stabil terbaru
+    implementation("androidx.navigation:navigation-fragment-ktx:$nav_version")
+    implementation("androidx.navigation:navigation-ui-ktx:$nav_version")
 }
