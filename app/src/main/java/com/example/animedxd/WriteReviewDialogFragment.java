@@ -1,4 +1,4 @@
-package com.example.belajar;
+package com.example.animedxd;
 
 import android.os.Bundle;
 import android.text.Editable;
@@ -14,6 +14,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.content.ContextCompat;
 
+import com.example.belajar.R;
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 
 public class WriteReviewDialogFragment extends BottomSheetDialogFragment {

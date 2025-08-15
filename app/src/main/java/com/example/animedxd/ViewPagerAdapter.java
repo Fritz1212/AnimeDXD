@@ -1,4 +1,4 @@
-package com.example.belajar;
+package com.example.animedxd;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;

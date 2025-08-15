@@ -1,5 +1,5 @@
 // File: Review.java
-package com.example.belajar;
+package com.example.animedxd;
 
 public class Review {
     private String name;

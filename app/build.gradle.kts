@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.belajar"
+    namespace = "com.example.animedxd"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.belajar"
+        applicationId = "com.example.animedxd"
         minSdk = 33
         targetSdk = 34
         versionCode = 1
@@ -29,6 +29,10 @@ android {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
+
+    viewBinding {
+        enabled = true
+    }
 }
 
 // GANTI DENGAN BLOK INI
@@ -37,6 +41,7 @@ dependencies {
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
+    implementation(libs.ui.test.android)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)

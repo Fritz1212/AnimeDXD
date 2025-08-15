@@ -1,4 +1,4 @@
-package com.example.belajar;
+package com.example.animedxd;
 
 public class Anime {
     private String title;

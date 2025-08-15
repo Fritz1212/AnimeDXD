@@ -1,4 +1,4 @@
-package com.example.belajar;
+package com.example.animedxd;
 
 import android.os.Bundle;
 import android.view.View;
