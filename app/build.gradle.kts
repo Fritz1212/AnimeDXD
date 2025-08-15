@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.animedxd"
-        minSdk = 33
+    minSdk = 26
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -30,8 +30,8 @@ android {
         targetCompatibility = JavaVersion.VERSION_11
     }
 
-    viewBinding {
-        enabled = true
+    buildFeatures {
+        viewBinding = true
     }
 }
 

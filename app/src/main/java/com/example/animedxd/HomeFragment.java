@@ -8,18 +8,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.example.animedxd.R;
-
-public class InformationFragment extends Fragment {
-
-    // Diperlukan constructor kosong
-    public InformationFragment() {
-    }
-
+public class HomeFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        // Menggunakan layout fragment_information.xml
-        return inflater.inflate(R.layout.fragment_information, container, false);
+        return inflater.inflate(R.layout.fragment_home, container, false);
     }
 }

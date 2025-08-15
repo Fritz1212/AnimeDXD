@@ -14,7 +14,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.content.ContextCompat;
 
-import com.example.belajar.R;
+import com.example.animedxd.R;
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 
 public class WriteReviewDialogFragment extends BottomSheetDialogFragment {

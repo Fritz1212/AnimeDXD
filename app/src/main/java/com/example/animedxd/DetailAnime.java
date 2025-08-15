@@ -11,7 +11,7 @@ import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayoutMediator;
 
 // Ganti com.example.belajar dengan nama package aplikasi Anda
-import com.example.belajar.R;
+import com.example.animedxd.R;
 
 
 public class DetailAnime extends AppCompatActivity {

@@ -53,7 +53,7 @@ public class FirstFragment extends Fragment {
             return; // Stop further validation
         }
 
-        if(username.length() < 5 && username.length() > 10) {
+        if(username.length() < 5 || username.length() > 10) {
             binding.usernameLayout.setError("Username must be greater than 5 and less than 10");
             binding.username.requestFocus();
             return;
@@ -73,7 +73,7 @@ public class FirstFragment extends Fragment {
 
         // --- If all checks pass ---
         Toast.makeText(requireContext(), "Login Successful!", Toast.LENGTH_SHORT).show();
-        // Here you would proceed with the actual login process (e.g., API call)
+        NavHostFragment.findNavController(this).navigate(R.id.action_FirstFragment_to_SecondFragment);
     }
 
     @Override

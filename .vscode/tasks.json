@@ -1,0 +1,117 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Gradle sync (dry parse)",
+			"type": "shell",
+			"command": "./gradlew.bat :app:tasks",
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "Compile Debug Java (check R resolution)",
+			"type": "shell",
+			"command": "./gradlew.bat :app:compileDebugJavaWithJavac --no-daemon --console=plain",
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "Gradle tasks (parse check after import fixes)",
+			"type": "shell",
+			"command": "./gradlew.bat :app:tasks",
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "Recompile after fixes",
+			"type": "shell",
+			"command": "./gradlew.bat :app:compileDebugJavaWithJavac --no-daemon --console=plain",
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "Recompile after cleanup",
+			"type": "shell",
+			"command": "./gradlew.bat :app:compileDebugJavaWithJavac --no-daemon --console=plain",
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "Assemble Debug APK to validate manifest fix",
+			"type": "shell",
+			"command": "./gradlew.bat :app:assembleDebug --no-daemon --console=plain",
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "Assemble Debug APK",
+			"type": "shell",
+			"command": "./gradlew.bat :app:assembleDebug --no-daemon --console=plain",
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "Clean and assemble after minSdk change",
+			"type": "shell",
+			"command": "./gradlew.bat :app:clean :app:assembleDebug --no-daemon --console=plain",
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": ":app:installDebug (capture install error)",
+			"type": "shell",
+			"command": "./gradlew.bat :app:installDebug --no-daemon --console=plain",
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "Assemble after minSdk 26",
+			"type": "shell",
+			"command": "./gradlew.bat :app:assembleDebug --no-daemon --console=plain",
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "Assemble after adding aboutPage",
+			"type": "shell",
+			"command": "./gradlew.bat :app:assembleDebug --no-daemon --console=plain",
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "Build after adding Navigation setup",
+			"type": "shell",
+			"command": "./gradlew.bat :app:assembleDebug --no-daemon --console=plain",
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "Build after reverting to First/Second fragments",
+			"type": "shell",
+			"command": "./gradlew.bat :app:assembleDebug --no-daemon --console=plain",
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "Rebuild after removing obsolete fragments",
+			"type": "shell",
+			"command": "./gradlew.bat :app:assembleDebug --no-daemon --console=plain",
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "Rebuild after neutralizing LoginFragment",
+			"type": "shell",
+			"command": "./gradlew.bat :app:assembleDebug --no-daemon --console=plain",
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "Rebuild after deleting LoginFragment",
+			"type": "shell",
+			"command": "./gradlew.bat :app:assembleDebug --no-daemon --console=plain",
+			"isBackground": false,
+			"group": "build"
+		}
+	]
+}

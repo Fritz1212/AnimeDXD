@@ -11,7 +11,7 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.belajar.R;
+import com.example.animedxd.R;
 import com.google.android.material.button.MaterialButton;
 import java.util.ArrayList;
 import java.util.List;
